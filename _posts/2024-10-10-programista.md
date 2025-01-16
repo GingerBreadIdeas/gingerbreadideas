@@ -1,5 +1,5 @@
 ---
-title: My article in programista magazine
+title:Our article in programista magazine
 categories:
   - posts
 tags:
