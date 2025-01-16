@@ -3,9 +3,9 @@ main:
     url: /posts/
   - title: "Projects"
     url: /projects/
-  - title: "About me"
+  - title: "About us"
     url: /about/
-  - title: "What I Offer"
+  - title: "What we Offer"
     url: /services/
   - title: "Contact"
     url: /contact/

@@ -20,8 +20,8 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Gingerbread Ideas"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Maciej Majewski"
-description              : "Personal website"
+name                     : "Gingerbread Ideas"
+description              : "AI security"
 url                      : "https://gingerbreadideas.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,23 +113,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr Maciej Majewski | a.k.a. Hawker"
-  avatar           : "/assets/images/avatar.jpeg"
-  bio              : "AI/ML Researcher, Educator, Physicist"
+  name             : "Gingerbread Ideas LLC"
+  #avatar           : "/assets/images/avatar.jpeg"
+  bio              : "AI security"
   location         : "Kraków, Poland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://gingerbreadideas.com/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mwmajewsk/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmajewsk"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url: "https://twitter.com/"
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://www.linkedin.com/in/mwmajewsk/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/mmajewsk"
 
 # Site Footer
 footer:
@@ -145,12 +145,6 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
       # url:
 
 
