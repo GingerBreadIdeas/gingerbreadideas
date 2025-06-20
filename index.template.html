@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gingerbread Ideas - Secure AI for Everyone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>Gingerbread Ideas</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="{{ form_url }}" class="btn-primary">Join Waitlist</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Securing AI Conversations Worldwide</span>
+                </div>
+                <h1 class="hero-title">
+                    Bulletproof Your
+                    <span class="gradient-text">AI Chatbots</span>
+                    Against Malicious Prompts
+                </h1>
+                <p class="hero-description">
+                    Gingerbread Ideas provides enterprise-grade ML security that analyzes and filters dangerous prompts before they reach your AI models. Integrate in minutes, protect in seconds.
+                </p>
+                <div class="hero-buttons">
+                    <a href="{{ form_url }}" class="btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Join Waitlist
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Threat Detection</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">&lt;50ms</div>
+                        <div class="stat-label">Response Time</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">500K+</div>
+                        <div class="stat-label">Prompts Analyzed</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-controls">
+                            <div class="control"></div>
+                            <div class="control"></div>
+                            <div class="control"></div>
+                        </div>
+                        <div class="mockup-title">Gingerbread Security Dashboard</div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="security-check">
+                            <div class="check-item safe">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Prompt analyzed - SAFE</span>
+                            </div>
+                            <div class="check-item blocked">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Malicious injection - BLOCKED</span>
+                            </div>
+                            <div class="check-item safe">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Query validated - SAFE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explainer Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>See Gingerbread Ideas in Action</h2>
+                <p>Watch how our AI security platform protects your applications in real-time</p>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/J8suziMNj84" 
+                        title="Gingerbread Ideas Explainer Video"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Leading Companies Choose Gingerbread</h2>
+                <p>Advanced AI security that grows with your business</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast Analysis</h3>
+                    <p>Real-time prompt scanning with sub-50ms latency. Your users won't even notice the security layer.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>ML-Powered Detection</h3>
+                    <p>Advanced machine learning models trained on millions of attack patterns and continuously updated.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Drop-in Integration</h3>
+                    <p>Simple API and SDK integration. Deploy in production in under 30 minutes with any chatbot platform.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Real-time Analytics</h3>
+                    <p>Comprehensive dashboard with threat intelligence, attack trends, and performance metrics.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Enterprise Security</h3>
+                    <p>SOC 2 compliant, GDPR ready, with enterprise-grade encryption and data privacy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Custom Rules Engine</h3>
+                    <p>Configure custom security policies and fine-tune detection sensitivity for your specific use case.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Seamless protection in three simple steps</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Integrate</h3>
+                        <p>Add our SDK to your chatbot or use our REST API. One line of code gets you started.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Analyze</h3>
+                        <p>Every prompt is analyzed by our ML models for injection attacks, jailbreaks, and malicious content.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Protect</h3>
+                        <p>Dangerous prompts are blocked instantly while safe queries pass through seamlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Start free, scale as you grow</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Perfect for testing and small projects</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i>10,000 requests/month</li>
+                        <li><i class="fas fa-check"></i>Basic threat detection</li>
+                        <li><i class="fas fa-check"></i>Email support</li>
+                        <li><i class="fas fa-check"></i>Dashboard access</li>
+                    </ul>
+                    <a href="{{ form_url }}" class="btn-secondary btn-full">Join Waitlist</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">299</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>For growing businesses and teams</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i>1M requests/month</li>
+                        <li><i class="fas fa-check"></i>Advanced ML detection</li>
+                        <li><i class="fas fa-check"></i>Priority support</li>
+                        <li><i class="fas fa-check"></i>Custom rules engine</li>
+                        <li><i class="fas fa-check"></i>Analytics & reporting</li>
+                    </ul>
+                    <a href="{{ form_url }}" class="btn-primary btn-full">Join Waitlist</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="amount">Custom</span>
+                        </div>
+                        <p>For large organizations with specific needs</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i>Unlimited requests</li>
+                        <li><i class="fas fa-check"></i>White-label solution</li>
+                        <li><i class="fas fa-check"></i>24/7 dedicated support</li>
+                        <li><i class="fas fa-check"></i>Custom integrations</li>
+                        <li><i class="fas fa-check"></i>SLA guarantees</li>
+                    </ul>
+                    <a href="{{ form_url }}" class="btn-secondary btn-full">Join Waitlist</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Secure Your AI?</h2>
+                <p>Join hundreds of companies protecting their AI applications with Gingerbread Ideas</p>
+                <div class="cta-buttons">
+                    <a href="{{ form_url }}" class="btn-secondary btn-large">
+                        <i class="fas fa-envelope"></i>
+                        Join Waitlist
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Have questions? We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Us</h3>
+                            <p>Get in touch with our team</p>
+                            <a href="mailto:contact@gingerbreadideas.com">contact@gingerbreadideas.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Gingerbread Ideas</span>
+                    </div>
+                    <p>Securing AI conversations worldwide with cutting-edge machine learning technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gingerbread Ideas. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
