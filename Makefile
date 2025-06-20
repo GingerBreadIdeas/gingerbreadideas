@@ -1,5 +1,5 @@
 index.html: index.template.html render_template.py
-	uv run render_template.py > index.html
+	uv run --script render_template.py > index.html
 
 .PHONY: serve clean format
 serve:

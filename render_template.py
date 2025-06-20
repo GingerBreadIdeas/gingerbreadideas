@@ -1,12 +1,8 @@
-#!/usr/bin/env python3
-"""
-Script dependencies:
-/// script
-dependencies = [
-    "jinja2",
-]
-///
-"""
+# /// script
+# dependencies = [
+#     "jinja2",
+# ]
+# ///
 
 from jinja2 import Template
 
